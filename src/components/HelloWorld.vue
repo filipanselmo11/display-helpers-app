@@ -11,17 +11,29 @@
       </div>
     </div>
     <div v-if="$vuetify.breakpoint.name === 'md'">
-      <div style="margin-left: 158px;">
+      <div
+        style="
+          margin-left: 433px;
+          margin-top: 278px;
+          ">
         <v-btn color="red">md-button</v-btn>
       </div>
     </div>
     <div v-if="$vuetify.breakpoint.name === 'lg'">
-      <div style="margin-left: 158px;">
+      <div
+        style="
+          margin-left: 800px;
+          margin-top: 221px;
+          ">
         <v-btn color="blue">lg-button</v-btn>
       </div>
     </div>
     <div v-if="$vuetify.breakpoint.name === 'xl'">
-      <div style="margin-left: 158px;">
+      <div
+        style="
+          margin-left: 900px;
+          margin-top: 125px;
+          ">
         <v-btn color="yellow">xl-button</v-btn>
       </div>
     </div>
